@@ -1,0 +1,3 @@
+New-Item -ItemType Directory -Path "powershell"
+New-Item -ItemType File -Path "C:\Users\LENOVO\powershell\pusty.txt"
+ Select-String "FROM" -Path "C:\Users\LENOVO\powershell\pusty.txt"

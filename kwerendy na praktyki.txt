@@ -1,0 +1,4 @@
+SELECT imie FROM praktyki Where wiek >18; // wyszukuje osoby których wiek jest większy niz 18
+ALTER TABLE praktyki ADD COLUMN plec TEXT; //Do tabeli dodaje kolumne plec
+INSERT INTO praktyki (`imie`,`nazwisko`,`wiek`,`plec`) VALUES ('Robert','Kowalski','22','M');// Dodaje do tabli praktyki nową osobe
+UPDATE praktyki SET `wiek`=`wiek`+1 WHERE imie ='Dariusz';//Polecenie dodaje do akutalnego wieku +1 dla osób których imie to Dariusz
